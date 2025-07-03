@@ -20,7 +20,7 @@ export default class Boid {
     this.acceleration = new THREE.Vector3();
 
     // Paramètres dynamiques
-    this.maxSpeed = 5.0;
+    this.maxSpeed = 4;
     this.maxForce = 0.2;
   }
 
