@@ -24,7 +24,7 @@ const SceneBoids = () => {
     mountRef.current.appendChild(renderer.domElement);
 
     // Liste des boids
-    const numBoids = 300;
+    const numBoids = 400;
     const boids = [];
 
     for (let i = 0; i < numBoids; i++) {

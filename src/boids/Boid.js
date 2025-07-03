@@ -20,8 +20,8 @@ export default class Boid {
     this.acceleration = new THREE.Vector3();
 
     // Paramètres dynamiques
-    this.maxSpeed = 4;
-    this.maxForce = 0.2;
+    this.maxSpeed = 3.5;
+    this.maxForce = 0.15;
   }
 
   // Application des règles de regroupement
